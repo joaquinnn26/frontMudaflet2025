@@ -27,10 +27,6 @@ function responsiveMenu() {
   
 
 
-document.getElementById("btnMenu").addEventListener("click", () => {
-  document.getElementById("mobileLinks").classList.toggle("activo");
-
-});
 
 
 function mostrarAlerta() {
