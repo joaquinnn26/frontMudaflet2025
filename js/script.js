@@ -58,7 +58,7 @@ document.getElementById('formMudanza').addEventListener('submit', async function
         detalle: document.getElementById('detalle').value
     };
 
-    const res = await fetch('https://backmudaflet2025.onrender.com/api/mudanza', {
+    const res = await fetch('http://localhost:8080/api/mudanza', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
